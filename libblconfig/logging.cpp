@@ -92,7 +92,7 @@ void initLoging(
     boost::log::add_common_attributes();
     log_core->add_global_attribute("Scopes", attributes::named_scope());
 
-/*
+
 #ifdef DEBUG
     logging::core::get()->set_filter
     (
@@ -106,5 +106,4 @@ void initLoging(
     );
     UNUSED_ARG(debugSeverityMin);
 #endif
-*/
 }
